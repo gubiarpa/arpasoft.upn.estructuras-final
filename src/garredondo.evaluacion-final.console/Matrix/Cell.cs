@@ -1,4 +1,4 @@
-﻿namespace garredondo.evaluacion_final.core.Entities
+﻿namespace garredondo.evaluacion_final.console.Matrix
 {
     public class Cell
     {
