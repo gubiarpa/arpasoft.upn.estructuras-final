@@ -16,8 +16,12 @@ Cell cellEnd = GetCell(2);
 
 var paths = matrixTreeNodeService.GetPaths(cellStart!, cellEnd!);
 
-if (paths == null)
+Console.WriteLine();
+if (paths == null || paths.Count() == 0)
+{
+    Console.WriteLine("No se encontraron rutas");
     return;
+}
 
 var minimumPath = paths.OrderBy(path =>
 {
@@ -39,6 +43,8 @@ var minimumPath = paths.OrderBy(path =>
 
     return minimumStepCount;
 }).FirstOrDefault();
+
+matrixDrawer.DrawMatrixWithPath(minimumPath);
 
 Console.ReadKey();
 #endregion
