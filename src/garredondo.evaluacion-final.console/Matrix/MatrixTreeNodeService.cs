@@ -61,10 +61,10 @@ namespace garredondo.evaluacion_final.console.Matrix
             if (node.Col < 0)
                 return false;
 
-            if (node.Row >= _matrix.GetLength(0))
+            if (node.Row >= _rowSize)
                 return false;
 
-            if (node.Col >= _matrix.GetLength(1))
+            if (node.Col >= _colSize)
                 return false;
 
             return true;
