@@ -1,5 +1,4 @@
-﻿using garredondo.evaluacion_final.core.Entities;
-using garredondo.evaluacion_final.infrastructure.Services;
+﻿using garredondo.evaluacion_final.infrastructure.Services;
 
 namespace garredondo.evaluacion_final.console.Matrix
 {

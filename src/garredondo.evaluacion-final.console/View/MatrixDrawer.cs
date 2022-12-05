@@ -5,14 +5,20 @@ namespace garredondo.evaluacion_final.console.View
 {
     public class MatrixDrawer
     {
+        #region Config
+        private const string MAP_HEADER = "  0 1 2 3 4 5 6 7";
         private const string WAY_ACTIVE = "1 ";
         private const string WAY_INACTIVE = "0 ";
+        #endregion
+
+        #region Matrix
         private bool[,] _matrix;
 
         public MatrixDrawer(bool[,] matrix)
         {
             _matrix = matrix;
         }
+        #endregion
 
         public void DrawMatrix()
         {
@@ -23,15 +29,19 @@ namespace garredondo.evaluacion_final.console.View
             var colSize = _matrix.GetLength(1);
 
             Console.WriteLine("Mapa original:\n");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine(MAP_HEADER);
 
             for (int i = 0; i < rowSize; i++)
             {
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                Console.Write($"{i} ");
                 for (int j = 0; j < colSize; j++)
                 {
-                    var cell = _matrix[i, j];
+                    var cellValue = _matrix[i, j];
 
-                    Console.ForegroundColor = cell ? ConsoleColor.DarkCyan: ConsoleColor.DarkGray;
-                    Console.Write(cell ? WAY_ACTIVE : WAY_INACTIVE);
+                    Console.ForegroundColor = cellValue ? ConsoleColor.DarkCyan : ConsoleColor.DarkGray;
+                    Console.Write(cellValue ? WAY_ACTIVE : WAY_INACTIVE);
                     Console.ForegroundColor = ConsoleColor.White;
 
                 }
@@ -44,6 +54,7 @@ namespace garredondo.evaluacion_final.console.View
 
         }
 
+        #region Helpers
         private bool IsValidMatrix(bool[,] matrix)
         {
             if (matrix == null)
@@ -60,5 +71,6 @@ namespace garredondo.evaluacion_final.console.View
 
             return true;
         }
+        #endregion
     }
 }
