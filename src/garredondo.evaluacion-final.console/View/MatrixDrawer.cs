@@ -1,11 +1,12 @@
-﻿using garredondo.evaluacion_final.core.Entities;
+﻿using garredondo.evaluacion_final.console.Matrix;
+using garredondo.evaluacion_final.core.Entities;
 
 namespace garredondo.evaluacion_final.console.View
 {
     public class MatrixDrawer
     {
-        private const string WAY_ACTIVE = "1";
-        private const string WAY_INACTIVE = "0";
+        private const string WAY_ACTIVE = "1 ";
+        private const string WAY_INACTIVE = "0 ";
         private bool[,] _matrix;
 
         public MatrixDrawer(bool[,] matrix)
@@ -21,13 +22,15 @@ namespace garredondo.evaluacion_final.console.View
             var rowSize = _matrix.GetLength(0);
             var colSize = _matrix.GetLength(1);
 
+            Console.WriteLine("Mapa original:\n");
+
             for (int i = 0; i < rowSize; i++)
             {
                 for (int j = 0; j < colSize; j++)
                 {
                     var cell = _matrix[i, j];
 
-                    Console.ForegroundColor = cell ? ConsoleColor.DarkRed : ConsoleColor.DarkBlue;
+                    Console.ForegroundColor = cell ? ConsoleColor.DarkCyan: ConsoleColor.DarkGray;
                     Console.Write(cell ? WAY_ACTIVE : WAY_INACTIVE);
                     Console.ForegroundColor = ConsoleColor.White;
 
