@@ -9,7 +9,7 @@ namespace garredondo.evaluacion_final.console.Matrix
         private readonly int _rowSize;
         private readonly int _colSize;
 
-        public MatrixTreeNodeService(bool [,] matrix)
+        public MatrixTreeNodeService(bool[,] matrix)
         {
             _matrix = matrix;
             _rowSize = matrix.GetLength(0);
@@ -42,7 +42,7 @@ namespace garredondo.evaluacion_final.console.Matrix
             /// Down
             if (node.Row < _rowSize - 1 && _matrix[node.Row + 1, node.Col])
                 adjacentNodes.Add(new Cell(node.Row + 1, node.Col));
-            
+
             /// Left
             if (node.Col > 0 && _matrix[node.Row, node.Col - 1])
                 adjacentNodes.Add(new Cell(node.Row, node.Col - 1));
