@@ -1,7 +1,6 @@
 ﻿using garredondo.evaluacion_final.console.Data;
 using garredondo.evaluacion_final.console.Matrix;
 using garredondo.evaluacion_final.console.View;
-using garredondo.evaluacion_final.core.Entities;
 using garredondo.evaluacion_final.core.Services;
 
 #region Main
