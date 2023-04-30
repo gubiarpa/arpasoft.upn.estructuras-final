@@ -1,6 +1,6 @@
-﻿using garredondo.evaluacion_final.core.Enums;
+﻿using garredondo.evaluacion_t2.core.Enums;
 
-namespace garredondo.evaluacion_final.core.Entities
+namespace garredondo.evaluacion_t2.core.Entities
 {
     public class TreeNode<T>
     {

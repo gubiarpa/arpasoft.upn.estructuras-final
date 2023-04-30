@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{4E800A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{53F0C142-EDE0-4CE6-90F4-C5E3390DB9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garredondo.evaluacion-final.core", "garredondo.evaluacion-final.core\garredondo.evaluacion-final.core.csproj", "{E8CB3C64-214B-4BB8-B8FD-626B468C2087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "garredondo.evaluacion-t2.core", "garredondo.evaluacion-final.core\garredondo.evaluacion-t2.core.csproj", "{E8CB3C64-214B-4BB8-B8FD-626B468C2087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garredondo.evaluacion-final.infrastructure", "garredondo.evaluacion-final.infrastructure\garredondo.evaluacion-final.infrastructure.csproj", "{92A96AE4-6FD0-44AB-8D8B-9329A2389E35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "garredondo.evaluacion-t2.infrastructure", "garredondo.evaluacion-final.infrastructure\garredondo.evaluacion-t2.infrastructure.csproj", "{92A96AE4-6FD0-44AB-8D8B-9329A2389E35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "garredondo.evaluacion-final.console", "garredondo.evaluacion-final.console\garredondo.evaluacion-final.console.csproj", "{5073C4BA-6F39-463E-9DE7-1B9326C3F1C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "garredondo.evaluacion-t2.console", "garredondo.evaluacion-final.console\garredondo.evaluacion-t2.console.csproj", "{5073C4BA-6F39-463E-9DE7-1B9326C3F1C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

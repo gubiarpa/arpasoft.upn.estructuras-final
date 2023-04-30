@@ -1,6 +1,6 @@
-﻿using garredondo.evaluacion_final.core.Entities;
+﻿using garredondo.evaluacion_t2.core.Entities;
 
-namespace garredondo.evaluacion_final.core.Services
+namespace garredondo.evaluacion_t2.core.Services
 {
     public interface ITreeNodeService<T>
     {

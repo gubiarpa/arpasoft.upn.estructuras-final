@@ -1,7 +1,7 @@
-﻿using garredondo.evaluacion_final.console.Data;
-using garredondo.evaluacion_final.console.Matrix;
-using garredondo.evaluacion_final.console.View;
-using garredondo.evaluacion_final.core.Services;
+﻿using garredondo.evaluacion_t2.console.Data;
+using garredondo.evaluacion_t2.console.Matrix;
+using garredondo.evaluacion_t2.console.View;
+using garredondo.evaluacion_t2.core.Services;
 
 #region Main
 var matrix = (new DataLoader()).GetMap8x8();

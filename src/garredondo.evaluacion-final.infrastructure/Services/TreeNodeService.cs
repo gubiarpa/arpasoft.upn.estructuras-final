@@ -1,8 +1,8 @@
-﻿using garredondo.evaluacion_final.core.Entities;
-using garredondo.evaluacion_final.core.Enums;
-using garredondo.evaluacion_final.core.Services;
+﻿using garredondo.evaluacion_t2.core.Entities;
+using garredondo.evaluacion_t2.core.Enums;
+using garredondo.evaluacion_t2.core.Services;
 
-namespace garredondo.evaluacion_final.infrastructure.Services
+namespace garredondo.evaluacion_t2.infrastructure.Services
 {
     public abstract class TreeNodeService<T> : ITreeNodeService<T>
     {

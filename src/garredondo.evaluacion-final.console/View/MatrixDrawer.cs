@@ -1,7 +1,7 @@
-﻿using garredondo.evaluacion_final.console.Matrix;
-using garredondo.evaluacion_final.core.Entities;
+﻿using garredondo.evaluacion_t2.console.Matrix;
+using garredondo.evaluacion_t2.core.Entities;
 
-namespace garredondo.evaluacion_final.console.View
+namespace garredondo.evaluacion_t2.console.View
 {
     public class MatrixDrawer
     {

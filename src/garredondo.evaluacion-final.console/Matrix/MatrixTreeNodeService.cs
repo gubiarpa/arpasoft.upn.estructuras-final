@@ -1,6 +1,6 @@
-﻿using garredondo.evaluacion_final.infrastructure.Services;
+﻿using garredondo.evaluacion_t2.infrastructure.Services;
 
-namespace garredondo.evaluacion_final.console.Matrix
+namespace garredondo.evaluacion_t2.console.Matrix
 {
     public class MatrixTreeNodeService : TreeNodeService<Cell>
     {

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>garredondo.evaluacion_t2.console</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\garredondo.evaluacion-final.core\garredondo.evaluacion-t2.core.csproj" />
+    <ProjectReference Include="..\garredondo.evaluacion-final.infrastructure\garredondo.evaluacion-t2.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,4 +1,4 @@
-﻿namespace garredondo.evaluacion_final.console.Data
+﻿namespace garredondo.evaluacion_t2.console.Data
 {
     public class DataLoader
     {

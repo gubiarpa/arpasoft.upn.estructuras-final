@@ -1,4 +1,4 @@
-﻿namespace garredondo.evaluacion_final.core.Enums
+﻿namespace garredondo.evaluacion_t2.core.Enums
 {
     public enum TreeNodeState
     {
